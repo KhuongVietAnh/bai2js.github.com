@@ -1,0 +1,64 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 24, 2018, 9:53:39 AM
+    Author     : VietAnh
+*/
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    margin: 30px auto;
+    max-width: 500px;
+
+}
+ .table{
+    background-color: #2d2d2d;
+}
+.table{
+
+    width: 99.5%;
+    display: none;
+
+}
+.month{
+    width: 100%
+}
+.year{
+    width: 100%
+}
+.nameday{
+    background-color: #bebebe;
+    color: red;
+}
+.arrow__color_blue{
+    cursor: pointer;
+    background-color: #a9cce3;
+    color: blue;
+}
+#calendar{
+    background: url(calendarimg.png) no-repeat right;
+    background-size: contain;
+    background-color: white;
+}
+.days{
+    cursor: pointer;
+    border-color: white;
+}
+.days:hover{
+    background: aqua;
+}
+td{
+    width:70px;
+    text-align: center;
+}
+.table >thead, table >tbody{
+    background-color: white;
+}
+.input{
+    
+}
